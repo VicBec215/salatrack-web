@@ -14,12 +14,12 @@ export default function Footer({ locale }: { locale: "es" | "en" }) {
           </div>
 
           <div className="flex gap-4 text-sm text-zinc-600">
-            <a className="hover:text-zinc-900" href="#">
-              {t.privacy}
-            </a>
-            <a className="hover:text-zinc-900" href="#">
-              {t.legal}
-            </a>
+           <a className="hover:text-zinc-900" href="/es/legal/privacidad">
+  Privacidad
+</a>
+<a className="hover:text-zinc-900" href="/es/legal/aviso-legal">
+  Aviso legal
+</a>
           </div>
         </div>
 
