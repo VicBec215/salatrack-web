@@ -32,8 +32,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-zinc-200/70 bg-white/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href={locale === "es" ? "/es" : "/en"} className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-xl bg-blue-600" aria-hidden />
-          <div className="leading-tight">
+<img
+  src="/logo-icon.png"
+  alt="SalaTrack Health"
+  className="h-8 w-8 rounded-xl object-contain"
+/>         
+ <div className="leading-tight">
             <div className="text-sm font-semibold">SalaTrack Health</div>
             <div className="text-xs text-zinc-500">{t.product}</div>
           </div>
