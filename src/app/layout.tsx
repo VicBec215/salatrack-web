@@ -47,6 +47,15 @@ export const metadata: Metadata = {
     description: "Smart medical scheduling and clinical workflow management",
     images: ["/og.png"],
   },
+
+  manifest: "/site.webmanifest",
+  themeColor: "#2563eb",
+
+  appleWebApp: {
+    capable: true,
+    title: "SalaTrack Health",
+    statusBarStyle: "default"
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
